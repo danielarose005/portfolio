@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="site-header py-3">
+    <nav class="navbar navbar-center">
+      <ul class="nav justify-content-center gap-3">
+        <li class="nav-item"><a class="nav-link active" href="#home" data-bs-target="#portfolioCarousel" data-bs-slide-to="0">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about" data-bs-target="#portfolioCarousel" data-bs-slide-to="1">ABOUT ME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills" data-bs-target="#portfolioCarousel" data-bs-slide-to="2">SKILLS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects" data-bs-target="#portfolioCarousel" data-bs-slide-to="3">PROJECTS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" data-bs-target="#portfolioCarousel" data-bs-slide-to="4">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Carousel Slides -->
+  <main>
+    <div id="portfolioCarousel" class="carousel slide" data-bs-ride="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        
+       <!-- Landing Page -->
+    <div class="carousel-item active" id="home">
+        <div class="slide">
+    <div class="landing-card text-center">
+      <h2 class="section-title">Welcome!</h2>
+      <p>Hello! You’ve found my little space online.
+         This is my corner of the internet where I share who I am,
+          the skills I’ve gained, and the projects I built during my college journey.</p>
+      <button class="get-to-know" data-target="#about">
+        🌸 Get to Know Me
+      </button>
+      <span class="sticker sticker-top-left">✨</span>
+      <span class="sticker sticker-bottom-right"></span>
+    </div>
+      </div>
+
+  <img src="bear.png" class="sticker-right">
+
+</div>
+
+<!-- About Me -->
+<div class="carousel-item" id="about">
+  <div class="slide">
+    <div class="content-card"> 
+      <h2 class="about-title">About Me ❤️</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>🌸 Hello, my name is Daniela Rose S. Calizo, but you can call me Danie or Ella for short.</p>
+          <p>🍥 I’m 20 years old, born on January 30, 2005.</p>
+          <p>💎 I am a BSIT student, major in Service Management, at Batangas State University</p>
+          <p>💙 In my free time, I enjoy reading books, watching movies, listening to musics and spending time with friends.</p>
+          <div class="fun-facts">
+            <h4>Fun Facts About Me:</h4>
+            <p>🎮I love playing online games, especially any shooting games that involve guns.</p>
+            <p>📸 I love capturing moments through photos and videos,
+               as documenting life helps me preserve memories and stories I can always look back on</p>
+            <p>🎞️I’m inspired by sunsets, sunrises, nature, and the view of the sea—they’re some of my favorite things to photograph.</p>
+          </div>
+        </div>
+         <img src="me.jpg" alt="About Me" class="about-image">
+
+      </div>
+    </div> 
+  </div>
+</div>
+
+<!--  Skills -->
+<div class="carousel-item" id="skills">
+  <div class="slide">
+    <div class="skills-text">
+      <h2 class="skills-title">Skills 👨🏻‍💻</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <h3>Technical Skills</h3>
+          <div class="skill-item">
+            <span>Programming</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:40%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Web Development</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:70%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Database Management</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Service Management</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:20%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>AI Tools & Research</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:70%"></div>
+            </div>
+          </div>
+        </div> 
+        <div class="skill-card">
+          <h3>Personal Strengths</h3>
+          <div class="skill-item">
+            <span>Time Management</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Problem-Solving</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:50%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Communication Skills</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--level:30%"></div>
+            </div>
+          </div>
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</div> 
+
+
+
+<!--  Projects -->
+<div class="carousel-item" id="projects">
+  <div class="slide">
+    <div class="project-text"> 
+      <h2 class="project-title">Projects 📂</h2>
+      <div class="projects-grid">
+
+      
+        <div class="project-card">
+          <a href="https://danielarose005.github.io/Activity-1-/" target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="project h5 project-info">
+              <h5>📝 1. Text Formatting</h5>
+              <p>An activity that demonstrates how to apply different text styles such as 
+                bold, italic, underline, and etc. in HTML and CSS.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <a href="https://danielarose005.github.io/Activity-2/" target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="project h5 project-info">
+              <h5>📊 2. Table Rows and Columns</h5>
+              <p>An activity that focused on creating tables with rows and columns 
+                to display content in a structured layout..</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <a href="https://danielarose005.github.io/ActivityBootstrap/" target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="project h5 project-info">
+              <h5>🌐 3. Bootstrap Landing & Login Page</h5>
+              <p>A responsive activity using Bootstrap that combines a landing page layout with a simple login form.</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div> 
+  </div>
+</div>
+
+<!-- 🌸 Contact -->
+<div class="carousel-item" id="contact">
+  <div class="slide">
+    <div class="content-card"> 
+      <h2 class="contact-title">Contact Information</h2>
+      <div class="contact-content">
+        <div class="contact-card">
+          <h3>Get in Touch</h3>
+          <div class="contact-item"><i>📧</i> danielarose005@example.com</div>
+          <div class="contact-item"><i>📱</i> +63 961 467 5662</div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+
+  </main>
+<script>
+const navLinks = document.querySelectorAll('.nav-link');
+const carouselItems = document.querySelectorAll('.carousel-item');
+
+// Navbar link clicks
+navLinks.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault(); 
+
+
+    const current = document.querySelector('.carousel-item.active');
+    if (current) current.classList.remove('active');
+
+   
+    const targetId = link.getAttribute('href').substring(1);
+    const targetItem = document.getElementById(targetId);
+    if (targetItem) targetItem.classList.add('active');
+
+    navLinks.forEach(l => l.classList.remove('active'));
+    link.classList.add('active');
+  });
+});
+
+
+const getToKnowBtn = document.querySelector('.get-to-know');
+if (getToKnowBtn) {
+  getToKnowBtn.addEventListener('click', () => {
+   
+    const current = document.querySelector('.carousel-item.active');
+    if (current) current.classList.remove('active');
+
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) aboutSection.classList.add('active');
+
+    
+    navLinks.forEach(link => link.classList.remove('active'));
+    const aboutLink = document.querySelector('.nav-link[href="#about"]');
+    if (aboutLink) aboutLink.classList.add('active');
+  });
+}
+</script>
+
+
+</body>
+</html>
